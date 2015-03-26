@@ -1,0 +1,665 @@
+BLASTP 2.2.28+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: SKC5FYS301R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           25,455,905 sequences; 8,764,053,280 total letters
+Query= input_fasta
+
+Length=20
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|WP_001577367.1|  hypothetical protein [Escherichia coli] >...  43.5    5e-04
+ref|WP_001533923.1|  cytotoxic necrotizing factor 1 [Escherich...  43.5    6e-04
+ref|WP_001682680.1|  cytotoxic necrotizing factor 1 [Escherich...  43.5    6e-04
+ref|WP_001566411.1|  cytotoxic necrotizing factor 1 [Escherich...  43.5    6e-04
+ref|WP_001537377.1|  cytotoxic necrotizing factor 1 [Escherich...  43.5    6e-04
+gb|AAA85196.1|  CNF1 [Escherichia coli]                            43.5    6e-04
+ref|WP_000528124.1|  hypothetical protein [Escherichia coli] >...  43.5    6e-04
+ref|WP_000528125.1|  hypothetical protein [Escherichia coli] >...  43.5    6e-04
+ref|YP_006108791.1|  cytotoxic necrotizing factor 1 [Escherich...  43.5    6e-04
+ref|YP_543855.1|  cytotoxic necrotizing factor 1 [Escherichia ...  43.5    6e-04
+gb|AAN03785.1|AF483828_1  cytotoxic necrotizing factor 1 [Esch...  43.5    6e-04
+gb|AAN03786.1|AF483829_1  cytotoxic necrotizing factor 1 [Esch...  43.5    6e-04
+emb|CAA50007.1|  cytotoxic necrotizing factor 1 [Escherichia c...  43.5    6e-04
+gb|AAA18229.1|  cytotoxic necrotizing factor type 2 [Escherich...  42.7    0.001
+ref|WP_001102791.1|  hypothetical protein [Escherichia coli] >...  42.7    0.001
+ref|WP_001102790.1|  hypothetical protein [Escherichia coli] >...  42.7    0.001
+ref|YP_003034083.1|  cytotoxic necrotizing factor 2 protein Cn...  42.7    0.001
+emb|CAK19001.1|  cytotoxic necrotizing factor 3 [Escherichia c...  36.6    0.14 
+ref|ZP_06157796.1|  cytotoxic necrotizing factor 1 [Photobacte...  35.4    0.34 
+ref|ZP_15255136.1|  cytotoxic necrotizing factor 1, partial [Y...  31.2    1.3  
+ref|ZP_15202719.1|  cytotoxic necrotizing factor 1 domain prot...  31.2    1.3  
+ref|ZP_15322079.1|  cytotoxic necrotizing factor 1 domain prot...  31.2    1.3  
+ref|ZP_15193172.1|  cytotoxic necrotizing factor 1 domain prot...  31.2    1.3  
+ref|ZP_15044188.1|  cytotoxic necrotizing factor 1 domain prot...  31.2    1.4  
+ref|YP_650655.1|  hypothetical protein YPA_0742 [Yersinia pest...  31.2    1.5  
+ref|YP_001721345.1|  cytotoxic necrotizing factor [Yersinia ps...  31.2    9.0  
+gb|AAG45433.1|AF324349_2  cytotoxic necrotizing factor [Yersin...  31.2    9.0  
+ref|ZP_01732712.1|  hypothetical protein FBBAL38_00140 [Flavob...  27.7       52
+
+ALIGNMENTS
+>ref|WP_001577367.1| hypothetical protein [Escherichia coli]
+ gb|ELF44087.1| hypothetical protein WCI_04613 [Escherichia coli KTE8]
+Length=546
+
+ Score = 43.5 bits (101),  Expect = 5e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>ref|WP_001533923.1| cytotoxic necrotizing factor 1 [Escherichia coli]
+ gb|ELC84940.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE188]
+ gb|ELD59773.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE230]
+ gb|ELJ99292.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE99]
+Length=979
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>ref|WP_001682680.1| cytotoxic necrotizing factor 1 [Escherichia coli]
+ gb|ELJ89437.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE94]
+Length=999
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  142  LLLKNYYISSALYLYKNGEL  161
+
+
+>ref|WP_001566411.1| cytotoxic necrotizing factor 1 [Escherichia coli]
+ gb|ELE78800.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE86]
+ gb|ELH41434.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE183]
+ gb|ELJ64609.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE88]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>ref|WP_001537377.1| cytotoxic necrotizing factor 1 [Escherichia coli]
+ gb|ELD03509.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE201]
+ gb|ELI46814.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE124]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>gb|AAA85196.1| CNF1 [Escherichia coli]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>ref|WP_000528124.1| hypothetical protein [Escherichia coli]
+ gb|ELD47781.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE224]
+ gb|ELE94428.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE87]
+ gb|ELF33424.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE169]
+ gb|ELF79230.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE43]
+ gb|ELH90541.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE218]
+ gb|ELJ05248.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE153]
+ gb|ELJ33490.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE168]
+ gb|ELL39097.1| cytotoxic necrotizing factor 2 protein Cnf2 [Escherichia coli 
+J96]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>ref|WP_000528125.1| hypothetical protein [Escherichia coli]
+ gb|EFU50260.1| cytotoxic necrotizing factor [Escherichia coli MS 153-1]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>ref|YP_006108791.1| cytotoxic necrotizing factor 1 [Escherichia coli ABU 83972]
+ ref|WP_000528122.1| hypothetical protein [Escherichia coli]
+ emb|CAK02719.1| cytotoxic necritizing factor [Escherichia coli]
+ gb|EEJ48271.1| CCT family cytotoxin [Escherichia coli 83972]
+ gb|EFJ54076.1| cytotoxic necrotizing factor [Escherichia coli MS 185-1]
+ gb|EFJ92527.1| cytotoxic necrotizing factor [Escherichia coli MS 45-1]
+ gb|ADN49260.1| cytotoxic necrotizing factor 1 [Escherichia coli ABU 83972]
+ gb|ELC59560.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE39]
+ gb|ELD42473.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE214]
+ gb|ELE03333.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE53]
+ gb|ELE37894.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE67]
+ gb|ELH68369.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE207]
+ gb|ELI65943.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE133]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>ref|YP_543855.1| cytotoxic necrotizing factor 1 [Escherichia coli UTI89]
+ ref|YP_006113205.1| cytotoxic necrotizing factor 2 protein Cnf2 [Escherichia coli 
+UM146]
+ ref|WP_000528123.1| hypothetical protein [Escherichia coli]
+ gb|ABE10324.1| cytotoxic necrotizing factor 1 [Escherichia coli UTI89]
+ gb|EDV68687.1| cytotoxic necrotizing factor [Escherichia coli F11]
+ gb|EFJ63382.1| cytotoxic necrotizing factor [Escherichia coli MS 200-1]
+ gb|ADN73693.1| cytotoxic necrotizing factor 2 protein Cnf2 [Escherichia coli 
+UM146]
+ gb|EGB80198.1| cytotoxic necrotizing factor [Escherichia coli MS 60-1]
+ gb|ELC78271.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE189]
+ gb|ELC94203.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE191]
+ gb|ELD16290.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE206]
+ gb|ELE16817.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE55]
+ gb|ELH71019.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE215]
+ gb|ELI11917.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE104]
+ gb|ELI16385.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE106]
+ gb|ELI70532.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE131]
+ gb|ELI91206.1| cytotoxic necrotizing factor 1 [Escherichia coli KTE145]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>gb|AAN03785.1|AF483828_1 cytotoxic necrotizing factor 1 [Escherichia coli]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>gb|AAN03786.1|AF483829_1 cytotoxic necrotizing factor 1 [Escherichia coli]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>emb|CAA50007.1| cytotoxic necrotizing factor 1 [Escherichia coli]
+Length=1014
+
+ Score = 43.5 bits (101),  Expect = 6e-04
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGEL
+Sbjct  157  LLLKNYYISSALYLYKNGEL  176
+
+
+>gb|AAA18229.1| cytotoxic necrotizing factor type 2 [Escherichia coli]
+Length=1014
+
+ Score = 42.7 bits (99),  Expect = 0.001
+ Identities = 19/20 (95%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGE+
+Sbjct  157  LLLKNYYISSALYLYKNGEI  176
+
+
+>ref|WP_001102791.1| hypothetical protein [Escherichia coli]
+ gb|EID64799.1| cytotoxic necrotizing factor 2 protein Cnf2 [Escherichia coli 
+W26]
+Length=1014
+
+ Score = 42.7 bits (99),  Expect = 0.001
+ Identities = 19/20 (95%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGE+
+Sbjct  157  LLLKNYYISSALYLYKNGEI  176
+
+
+>ref|WP_001102790.1| hypothetical protein [Escherichia coli]
+ gb|EGI36577.1| cytotoxic necrotizing factor 1 [Escherichia coli TA271]
+Length=1014
+
+ Score = 42.7 bits (99),  Expect = 0.001
+ Identities = 19/20 (95%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGE+
+Sbjct  157  LLLKNYYISSALYLYKNGEI  176
+
+
+>ref|YP_003034083.1| cytotoxic necrotizing factor 2 protein Cnf2 [Escherichia coli 
+Vir68]
+ gb|ACT33566.1| cytotoxic necrotizing factor 2 protein Cnf2 [Escherichia coli 
+Vir68]
+Length=1014
+
+ Score = 42.7 bits (99),  Expect = 0.001
+ Identities = 19/20 (95%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1    LLLKNYYISSALYLYKNGEL  20
+            LLLKNYYISSALYLYKNGE+
+Sbjct  157  LLLKNYYISSALYLYKNGEI  176
+
+
+>emb|CAK19001.1| cytotoxic necrotizing factor 3 [Escherichia coli]
+Length=1013
+
+ Score = 36.6 bits (83),  Expect = 0.14
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    LLLKNYYISSALYLYKN  17
+            LLLKNYYISS+LYLYKN
+Sbjct  157  LLLKNYYISSSLYLYKN  173
+
+
+>ref|ZP_06157796.1| cytotoxic necrotizing factor 1 [Photobacterium damselae subsp. 
+damselae CIP 102761]
+ gb|EEZ39234.1| cytotoxic necrotizing factor 1 [Photobacterium damselae subsp. 
+damselae CIP 102761]
+Length=1037
+
+ Score = 35.4 bits (80),  Expect = 0.34
+ Identities = 15/17 (88%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    LLLKNYYISSALYLYKN  17
+            LLLKNYY+SS LYLYKN
+Sbjct  157  LLLKNYYVSSILYLYKN  173
+
+
+>ref|ZP_15255136.1| cytotoxic necrotizing factor 1, partial [Yersinia pestis PY-89]
+ gb|EIS98273.1| cytotoxic necrotizing factor 1, partial [Yersinia pestis PY-89]
+Length=56
+
+ Score = 31.2 bits (69),  Expect = 1.3
+ Identities = 13/19 (68%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  2   LLKNYYISSALYLYKNGEL  20
+           LL+NYYISSA YLYK+  +
+Sbjct  1   LLQNYYISSAYYLYKDSAI  19
+
+
+>ref|ZP_15202719.1| cytotoxic necrotizing factor 1 domain protein, partial [Yersinia 
+pestis PY-59]
+ gb|EIS47167.1| cytotoxic necrotizing factor 1 domain protein, partial [Yersinia 
+pestis PY-59]
+Length=54
+
+ Score = 31.2 bits (69),  Expect = 1.3
+ Identities = 13/19 (68%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  2   LLKNYYISSALYLYKNGEL  20
+           LL+NYYISSA YLYK+  +
+Sbjct  28  LLQNYYISSAYYLYKDSAI  46
+
+
+>ref|ZP_15322079.1| cytotoxic necrotizing factor 1 domain protein, partial [Yersinia 
+pestis PY-113]
+ gb|EIT64069.1| cytotoxic necrotizing factor 1 domain protein, partial [Yersinia 
+pestis PY-113]
+Length=50
+
+ Score = 31.2 bits (69),  Expect = 1.3
+ Identities = 13/19 (68%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  2   LLKNYYISSALYLYKNGEL  20
+           LL+NYYISSA YLYK+  +
+Sbjct  28  LLQNYYISSAYYLYKDSAI  46
+
+
+>ref|ZP_15193172.1| cytotoxic necrotizing factor 1 domain protein, partial [Yersinia 
+pestis PY-56]
+ gb|EIS33944.1| cytotoxic necrotizing factor 1 domain protein, partial [Yersinia 
+pestis PY-56]
+Length=79
+
+ Score = 31.2 bits (69),  Expect = 1.3
+ Identities = 13/19 (68%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  2   LLKNYYISSALYLYKNGEL  20
+           LL+NYYISSA YLYK+  +
+Sbjct  28  LLQNYYISSAYYLYKDSAI  46
+
+
+>ref|ZP_15044188.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-01]
+ ref|ZP_15063248.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-05]
+ ref|ZP_15068402.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-06]
+ ref|ZP_15073206.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-07]
+ ref|ZP_15078079.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-08]
+ ref|ZP_15087507.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-10]
+ ref|ZP_15097485.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-12]
+ ref|ZP_15102306.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-13]
+ ref|ZP_15116356.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-16]
+ ref|ZP_15121055.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-19]
+ ref|ZP_15125634.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-25]
+ ref|ZP_15130647.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-29]
+ ref|ZP_15135383.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-32]
+ ref|ZP_15140453.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-34]
+ ref|ZP_15145412.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-36]
+ ref|ZP_15150147.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-42]
+ ref|ZP_15154640.1| hypothetical protein YPPY45_1639 [Yersinia pestis PY-45]
+ ref|ZP_15159495.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-46]
+ ref|ZP_15164527.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-47]
+ ref|ZP_15169243.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-48]
+ ref|ZP_15188387.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-55]
+ ref|ZP_15207721.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-60]
+ ref|ZP_15212298.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-61]
+ ref|ZP_15226882.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-65]
+ ref|ZP_15236220.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-71]
+ ref|ZP_15240970.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-72]
+ ref|ZP_15245441.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-76]
+ ref|ZP_15259839.1| hypothetical protein YPPY90_1809 [Yersinia pestis PY-90]
+ ref|ZP_15264774.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-91]
+ ref|ZP_15269374.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-92]
+ ref|ZP_15274190.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-93]
+ ref|ZP_15278956.1| hypothetical protein YPPY94_1726 [Yersinia pestis PY-94]
+ ref|ZP_15284050.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-95]
+ ref|ZP_15288744.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-96]
+ ref|ZP_15293301.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-98]
+ ref|ZP_15298530.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-99]
+ ref|ZP_15312624.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-102]
+ gb|EIQ90661.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-01]
+ gb|EIR05750.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-05]
+ gb|EIR08937.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-06]
+ gb|EIR19764.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-07]
+ gb|EIR20777.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-08]
+ gb|EIR34597.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-10]
+ gb|EIR35796.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-12]
+ gb|EIR48382.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-13]
+ gb|EIR62748.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-16]
+ gb|EIR63292.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-19]
+ gb|EIR67165.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-25]
+ gb|EIR76734.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-29]
+ gb|EIR79050.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-34]
+ gb|EIR80052.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-32]
+ gb|EIR91113.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-36]
+ gb|EIR93185.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-42]
+ gb|EIR94227.1| hypothetical protein YPPY45_1639 [Yersinia pestis PY-45]
+ gb|EIS06870.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-46]
+ gb|EIS07285.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-47]
+ gb|EIS08412.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-48]
+ gb|EIS30931.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-55]
+ gb|EIS45599.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-60]
+ gb|EIS58377.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-61]
+ gb|EIS68661.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-65]
+ gb|EIS78489.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-71]
+ gb|EIS80558.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-72]
+ gb|EIS89058.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-76]
+ gb|EIT00540.1| hypothetical protein YPPY90_1809 [Yersinia pestis PY-90]
+ gb|EIT06462.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-91]
+ gb|EIT16766.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-93]
+ gb|EIT18083.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-92]
+ gb|EIT18633.1| hypothetical protein YPPY94_1726 [Yersinia pestis PY-94]
+ gb|EIT29307.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-95]
+ gb|EIT32463.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-96]
+ gb|EIT33696.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-98]
+ gb|EIT41301.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-99]
+ gb|EIT57788.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-102]
+Length=83
+
+ Score = 31.2 bits (69),  Expect = 1.4
+ Identities = 13/19 (68%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  2   LLKNYYISSALYLYKNGEL  20
+           LL+NYYISSA YLYK+  +
+Sbjct  28  LLQNYYISSAYYLYKDSAI  46
+
+
+>ref|YP_650655.1| hypothetical protein YPA_0742 [Yersinia pestis Antiqua]
+ ref|YP_648457.1| hypothetical protein YPN_2529 [Yersinia pestis Nepal516]
+ ref|YP_001162885.1| hypothetical protein YPDSF_1525 [Yersinia pestis Pestoides F]
+ ref|ZP_02331928.1| hypothetical protein YpesF_04855 [Yersinia pestis FV-1]
+ ref|ZP_04463680.1| Cytotoxic necrotizing factor 1 [Yersinia pestis biovar Orientalis 
+str. India 195]
+ ref|ZP_04509546.1| Cytotoxic necrotizing factor 1 [Yersinia pestis Pestoides A]
+ ref|YP_005523372.1| hypothetical protein A1122_18675 [Yersinia pestis A1122]
+ ref|YP_005624540.1| Cytotoxic necrotizing factor 1 [Yersinia pestis biovar Medievalis 
+str. Harbin 35]
+ ref|ZP_15048940.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-02]
+ ref|ZP_15058708.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-04]
+ ref|ZP_15082719.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-09]
+ ref|ZP_15092583.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-11]
+ ref|ZP_15111801.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-15]
+ ref|ZP_15250296.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-88]
+ ref|ZP_15307553.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-101]
+ ref|ZP_16199707.1| Cytotoxic necrotizing factor 1 [Yersinia pestis INS]
+ gb|ABG18857.1| hypothetical protein YPN_2529 [Yersinia pestis Nepal516]
+ gb|ABG12710.1| hypothetical protein YPA_0742 [Yersinia pestis Antiqua]
+ gb|ABP39912.1| hypothetical protein YPDSF_1525 [Yersinia pestis Pestoides F]
+ gb|EEO81208.1| Cytotoxic necrotizing factor 1 [Yersinia pestis biovar Orientalis 
+str. India 195]
+ gb|EEO90777.1| Cytotoxic necrotizing factor 1 [Yersinia pestis Pestoides A]
+ gb|ADV99253.1| Cytotoxic necrotizing factor 1 [Yersinia pestis biovar Medievalis 
+str. Harbin 35]
+ gb|AEL74352.1| hypothetical protein A1122_18675 [Yersinia pestis A1122]
+ gb|EIQ91856.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-02]
+ gb|EIR04768.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-04]
+ gb|EIR22587.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-09]
+ gb|EIR35884.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-11]
+ gb|EIR49434.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-15]
+ gb|EIS93824.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-88]
+ gb|EIT48399.1| cytotoxic necrotizing factor 1 domain protein [Yersinia pestis 
+PY-101]
+ gb|EKS47131.1| Cytotoxic necrotizing factor 1 [Yersinia pestis INS]
+Length=92
+
+ Score = 31.2 bits (69),  Expect = 1.5
+ Identities = 13/19 (68%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  2   LLKNYYISSALYLYKNGEL  20
+           LL+NYYISSA YLYK+  +
+Sbjct  37  LLQNYYISSAYYLYKDSAI  55
+
+
+>ref|YP_001721345.1| cytotoxic necrotizing factor [Yersinia pseudotuberculosis YPIII]
+ gb|ACA68892.1| Cytotoxic necrotizing factor [Yersinia pseudotuberculosis YPIII]
+Length=1014
+
+ Score = 31.2 bits (69),  Expect = 9.0
+ Identities = 13/19 (68%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  2    LLKNYYISSALYLYKNGEL  20
+            LL+NYYISSA YLYK+  +
+Sbjct  158  LLQNYYISSAYYLYKDSAI  176
+
+
+>gb|AAG45433.1|AF324349_2 cytotoxic necrotizing factor [Yersinia pseudotuberculosis]
+Length=1014
+
+ Score = 31.2 bits (69),  Expect = 9.0
+ Identities = 13/19 (68%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  2    LLKNYYISSALYLYKNGEL  20
+            LL+NYYISSA YLYK+  +
+Sbjct  158  LLQNYYISSAYYLYKDSAI  176
+
+
+>ref|ZP_01732712.1| hypothetical protein FBBAL38_00140 [Flavobacteria bacterium BAL38]
+ gb|EAZ95781.1| hypothetical protein FBBAL38_00140 [Flavobacteria bacterium BAL38]
+Length=122
+
+ Score = 27.7 bits (60),  Expect =    52
+ Identities = 10/19 (53%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+
+Query  1   LLLKNYYISSALYLYKNGE  19
+           +++KNYYI   +YL KNG+
+Sbjct  52  VIMKNYYILEQIYLTKNGK  70
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 4, 2013  12:13 PM
+  Number of letters in database: 8,764,053,280
+  Number of sequences in database:  25,455,905
+
+Lambda      K        H
+   0.320    0.142    0.390 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 25455905
+Number of Hits to DB: 31939737
+Number of extensions: 307455
+Number of successful extensions: 370
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 370
+Number of HSP's successfully gapped: 2
+Length of query: 20
+Length of database: 8764053280
+Length adjustment: 0
+Effective length of query: 20
+Effective length of database: 8764053280
+Effective search space: 175281065600
+Effective search space used: 175281065600
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 68 (30.8 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

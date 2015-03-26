@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FINAL</title>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/search_product.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/black-tie/jquery-ui.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/final_jquery.js"></script>
+    <!--    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>-->
+  </head>  
+  <body id="main">
+    <h4>blastp2mysql</h4>
+    <form name="search_term" id="search_term" action="">
+      <input id="search_term" name="search_term" type="search" value="LLLKNYYISSALYLYKNGEL" autofocus="autofocus" placeholder="Protein sequences only (e.g. LLLKNYYISSALYLYK)"/>
+      <input name="submit" type="submit" id="submit" value="submit">
+    </form>
+    <!-- INITIAL BLAST RESULTS/REFINING -->
+    <section id='results'>
+      <p><span id='program'>no</span> program used.</p>
+      <p><span id='match_count'>0</span> match(es) found.</p>
+      <button name="resubmit" id="resubmit" type="submit">save selected results</button>
+      <table>
+        <thead>
+          <tr>
+	    <td>Save?</td>
+            <td>DB</td>
+            <td>Accession</td>
+	    <td>Description</td>
+	    <td>Score</td>
+	    <td>E-value</td>
+	    <td>Start</td>
+	    <td>Stop</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- this will be filled in by javascript when there are results -->
+        </tbody>
+      </table>
+    </section>
+    <HR>
+    <h4>MySQLDB search</h4>
+    <form name="search_db_term" id="search_db_term" action="">
+      <!--accession-->
+      <input id="db_term" name="db_term" type="search" value="prot" autofocus="autofocus" placeholder="Enter in search term."/>
+      <input name="db_search" type="submit" id="db_search" value="search">
+    </form>
+    <!--SEARCH DATABASE-->
+    <section id='dbresults'>
+      <p><span id='db_count'>0</span> match(es) found.</p>
+      <table border="1">
+	<thead>
+	  <!-- this will be filled in by javascript with explanation of oddcode -->
+	</thead>
+	<tbody>
+	  <!-- this will be filled in by javascript when there are results -->
+	</tbody>
+      </table>
+    </section>
+  </body>
+</html>
